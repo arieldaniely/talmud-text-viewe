@@ -1,14 +1,14 @@
 {
   "books": 36,
   "pages": 5287,
-  "streams": 16289,
-  "positionedRanges": 6976419,
-  "characters": 35098132,
+  "streams": 31435,
+  "positionedRanges": 7690453,
+  "characters": 38356149,
   "figurePositions": 253,
-  "dataBytes": 91140350,
-  "packageBytes": 91172289,
+  "dataBytes": 101489054,
+  "packageBytes": 101773070,
   "validationPassed": true,
-  "checkedBrowserPages": 12,
+  "checkedBrowserPages": 16,
   "browserCoordinateErrors": 0,
   "browserScriptErrors": [],
   "layout": "continuous Unicode streams with original page positions; open font outlines differ",
@@ -20,5 +20,20 @@
     "remainingJoinedRows": 0,
     "browserSampledPages": 3,
     "sourceGlyphsPreserved": true
+  },
+  "fonts": {
+    "body": "Romm Vilna",
+    "heading": "Romm Vilna Heading",
+    "chapterTitle": "Romm Vilna Title",
+    "commentary": "Mekorot",
+    "delivery": "local open fonts, SIL OFL 1.1"
+  },
+  "headingsAndReferences": {
+    "pages": 5287,
+    "positionedHeadings": 5286,
+    "embeddedHeadings": 1,
+    "referenceColumns": 9860,
+    "preservedBodyStreams": 16289,
+    "failures": []
   }
 }
