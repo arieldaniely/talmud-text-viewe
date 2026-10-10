@@ -16,6 +16,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      - name: Verify bundled fonts
+        run: |
+          python3 - <<'PY'
+          import re
+          from pathlib import Path
+          fonts = re.findall(r"url\(['\"]?(fonts/[^)'\"]+)", Path('style.css').read_text())
+          missing = [name for name in fonts if not Path(name).is_file() or not Path(name).stat().st_size]
+          assert fonts and not missing, f'Missing bundled fonts: {missing}'
+          PY
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
