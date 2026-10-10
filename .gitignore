@@ -12,3 +12,10 @@ Thumbs.db
 *.gif
 *.svg
 *.webp
+
+# Bundled open fonts used by style.css must be included in deployments.
+!fonts/romm-vilna.ttf
+!fonts/romm-vilna-heading.otf
+!fonts/romm-vilna-title.otf
+!fonts/mekorot-rashi.woff2
+!fonts/mekorot-rashi-bold.woff2
