@@ -19,7 +19,7 @@ function render(){
    if(start>cursor)text.append(document.createTextNode(chars.slice(cursor,start).join('')));
    const value=chars.slice(start,start+length).join(''),width=Math.max(.01,right-left);
    const span=svgNode('tspan',{x:right,y,'font-size':fontSize,textLength:width,lengthAdjust:'spacingAndGlyphs','data-start':start,'data-length':length,'data-left':left,'data-right':right});
-   if(reference)span.classList.add('reference');if(fontSize>18)span.setAttribute('font-weight','600');if(matches.some(([a,b])=>a<start+length&&b>start))span.classList.add('match');
+   if(reference)span.classList.add('reference');if(fontSize>18)span.setAttribute('font-weight','600');if(fontSize>30)span.classList.add('large-type');if(matches.some(([a,b])=>a<start+length&&b>start))span.classList.add('match');
    // Standalone source vowel glyphs have a measured box, but Unicode marks
    // have zero advance. An invisible base lets SVG fit that box correctly.
    span.textContent=/^\p{Mark}+$/u.test(value)?'\u00a0'+value:value;text.append(span);cursor=start+length;
