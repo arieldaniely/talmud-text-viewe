@@ -1,0 +1,14 @@
+__pycache__/
+.DS_Store
+Thumbs.db
+*.pdf
+*.woff
+*.woff2
+*.ttf
+*.otf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.webp
