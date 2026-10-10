@@ -4,26 +4,26 @@
     "title": "ברכות",
     "pages": 125,
     "path": "data/00.json.gz",
-    "bytes": 2022530,
-    "sha256": "72593e209ab5992268c464dcb453168d4175624931c671c86689eb778431cbf7",
-    "characters": 749449
+    "bytes": 2022672,
+    "sha256": "9a652a612265a01c1ebbbde932973529b3794bbcebfa13a47ea9f5804136bfb4",
+    "characters": 749441
   },
   {
     "id": 1,
     "title": "נדה",
     "pages": 143,
     "path": "data/01.json.gz",
-    "bytes": 2336369,
-    "sha256": "6e8c102fbc29d39ab5954907c4ee5f831ec0f62b2ec4cd9dc2c8e4ebf4e11fb6",
-    "characters": 915577
+    "bytes": 2336117,
+    "sha256": "80246224be818b48bb07e4498a6b5682803bf74782be20bca12a123803a305ae",
+    "characters": 915562
   },
   {
     "id": 2,
     "title": "ביצה",
     "pages": 78,
     "path": "data/02.json.gz",
-    "bytes": 1213109,
-    "sha256": "fc93fa42d2d40ad5089ac275b3115035197c1ff8fba9709159bf65d79bd11c03",
+    "bytes": 1213077,
+    "sha256": "e91b31ad0b69e5d44f6a9b99dbad58fb3039b7649da703f881804eb838e4e454",
     "characters": 473255
   },
   {
@@ -31,8 +31,8 @@
     "title": "חגיגה",
     "pages": 51,
     "path": "data/03.json.gz",
-    "bytes": 811653,
-    "sha256": "a587dd680d2a25aef72a3fc9fa416092b10c34ed5fb3bebefb7ebe721db52321",
+    "bytes": 811698,
+    "sha256": "3428139e35c69419e49a659ef196ca5c2a03bc7a3ec88e0dbb1185d18047a0bd",
     "characters": 311516
   },
   {
@@ -40,18 +40,18 @@
     "title": "יומא",
     "pages": 173,
     "path": "data/04.json.gz",
-    "bytes": 2609812,
-    "sha256": "538810d6eee135b8c9f4c0742185bcd7d6a406a79bb0bfd247679ce2a7d71b85",
-    "characters": 1018624
+    "bytes": 2609803,
+    "sha256": "eb3aa00540a2b9d455b5b787be94f5e5f4dc97691a4c38f0090b9b0821c5718b",
+    "characters": 1018621
   },
   {
     "id": 5,
     "title": "מגילה",
     "pages": 61,
     "path": "data/05.json.gz",
-    "bytes": 911333,
-    "sha256": "1c50d69fb7e2e22ddbf31e8468b23e313c95ec44516977425a070346266583a3",
-    "characters": 345330
+    "bytes": 911281,
+    "sha256": "0ec6a2bfab654320673318118b198e8205e516c2f41b6babe6c724f147f6db6f",
+    "characters": 345328
   },
   {
     "id": 6,
@@ -59,7 +59,7 @@
     "pages": 55,
     "path": "data/06.json.gz",
     "bytes": 832541,
-    "sha256": "f4971f21ee173a317447f5099d620b51214b5aaa8ea986c8ccc38e909922a101",
+    "sha256": "7d76b35c09638787fe0e621566a6ef339109826f803633038c21dd793c042a7c",
     "characters": 321415
   },
   {
@@ -67,35 +67,35 @@
     "title": "סוכה",
     "pages": 110,
     "path": "data/07.json.gz",
-    "bytes": 1797838,
-    "sha256": "6d0532983821f1da3294bc1173394b5130507e2e53bc514d548dcf732cb322ac",
-    "characters": 710886
+    "bytes": 1797792,
+    "sha256": "e734a4df68dcfe7b8c5209776f3abd2e796a93c1ebb7f7710ab1d3883cd80768",
+    "characters": 710885
   },
   {
     "id": 8,
     "title": "עירובין",
     "pages": 207,
     "path": "data/08.json.gz",
-    "bytes": 3374924,
-    "sha256": "c3c4938fe99e9d60dc8df9e7df539408db9496f68104e892a666b72ef7f61b44",
-    "characters": 1329968
+    "bytes": 3374225,
+    "sha256": "20cc1f61ded353bac1cc94af63c6b854f01803fd24c1c429bf81b8e01f73d217",
+    "characters": 1329936
   },
   {
     "id": 9,
     "title": "פסחים",
     "pages": 240,
     "path": "data/09.json.gz",
-    "bytes": 3848486,
-    "sha256": "7a1a836927211e0fb8fa657150879a54aca557127a9260e46d5325a1b4771295",
-    "characters": 1499785
+    "bytes": 3847458,
+    "sha256": "effba113accb34a80b9186b745aa46bf54a395447e343167756ff81293b2bdfa",
+    "characters": 1499699
   },
   {
     "id": 10,
     "title": "ראש השנה",
     "pages": 67,
     "path": "data/10.json.gz",
-    "bytes": 1023870,
-    "sha256": "368e68d783668427d943522bcf7da6640d506a8817e3ca6f3e36e3421d11e9e2",
+    "bytes": 1023881,
+    "sha256": "0d04244a18141d7813b2e018e0d1ac1b86a0e702f835d9bd86b15a16d8421efc",
     "characters": 400184
   },
   {
@@ -103,62 +103,62 @@
     "title": "שבת",
     "pages": 312,
     "path": "data/11.json.gz",
-    "bytes": 5185735,
-    "sha256": "3871027248019ad861b10cd902c8639c0add013f2f77543651cf8717a84b0436",
-    "characters": 1976393
+    "bytes": 5185715,
+    "sha256": "80da4709b12f58c6c7ba99f18eb985d72144291781358d309206568e1baf082a",
+    "characters": 1976387
   },
   {
     "id": 12,
     "title": "שקלים",
     "pages": 42,
     "path": "data/12.json.gz",
-    "bytes": 1258721,
-    "sha256": "5f7e4b361f8449eaa5099f612148bc55f1f0d9abd85b6db2819c211198f97e48",
-    "characters": 493303
+    "bytes": 1257619,
+    "sha256": "f5b2b480e549ff52dd0a4d4d7a5f104ab81166429f4d5a80235229fe28ca5c3e",
+    "characters": 493280
   },
   {
     "id": 13,
     "title": "תענית",
     "pages": 59,
     "path": "data/13.json.gz",
-    "bytes": 889881,
-    "sha256": "8ed650e4be4b3bf9b6dec1d4c775331c237d7b3423a3dec729cf73e37b3de6c6",
-    "characters": 341341
+    "bytes": 889846,
+    "sha256": "0d2b77d6180e3479920bb36c1b31e17827a608921bb0b6928150e8960bfa9dd2",
+    "characters": 341340
   },
   {
     "id": 14,
     "title": "בבא בתרא",
     "pages": 350,
     "path": "data/14.json.gz",
-    "bytes": 6125110,
-    "sha256": "179dc9e9e5a0c1f9270c848102c24172e4fc7b6e5d24ce4cc92d5b8861652ad0",
-    "characters": 2368529
+    "bytes": 6124721,
+    "sha256": "a34c6aae565caff55cb57c80686c7211d830ddf8c49cb23a9da12b1ade64cf37",
+    "characters": 2368515
   },
   {
     "id": 15,
     "title": "בבא מציעא",
     "pages": 235,
     "path": "data/15.json.gz",
-    "bytes": 3827209,
-    "sha256": "cdce738e91e17a3c6b4f4c56def33a2f11451969a5b01c77df3e18cc82b1f539",
-    "characters": 1479899
+    "bytes": 3826888,
+    "sha256": "ec96a435b98460d8f21ab3d7e9e3decaa81e6b85628407b12b8aaefdcd4ba255",
+    "characters": 1479879
   },
   {
     "id": 16,
     "title": "בבא קמא",
     "pages": 236,
     "path": "data/16.json.gz",
-    "bytes": 3733937,
-    "sha256": "c6be5241cddb7150a659ec5332e09e5ffcd00d01200b571833c174c5cc443b4b",
-    "characters": 1452654
+    "bytes": 3733754,
+    "sha256": "aac7c58de09f6fe54ffbef15cb8af01a9e851d250f0e0a4e1181f3401272d8a7",
+    "characters": 1452643
   },
   {
     "id": 17,
     "title": "הוריות",
     "pages": 25,
     "path": "data/17.json.gz",
-    "bytes": 430893,
-    "sha256": "229f1c9b8d9698a25c88e8c22dce3b33fc4d513398b5a95ba502fce49314efde",
+    "bytes": 430888,
+    "sha256": "855f0390a1b498cceb19b7ac4bc09bdbbf575d1e66ca914e0f320530f691d8d6",
     "characters": 168752
   },
   {
@@ -166,161 +166,161 @@
     "title": "מכות",
     "pages": 46,
     "path": "data/18.json.gz",
-    "bytes": 726685,
-    "sha256": "2ac1c463b1fbe0eea9308eb713f55e82fb2fa3cddecf4b5534c2ad055859871d",
-    "characters": 277074
+    "bytes": 726590,
+    "sha256": "546d81b06ad61dbe55edfa1d33cf77ad6a2c03f63fbf9713e13d2156f3f5d2bd",
+    "characters": 277070
   },
   {
     "id": 19,
     "title": "סנהדרין",
     "pages": 224,
     "path": "data/19.json.gz",
-    "bytes": 3646965,
-    "sha256": "fc5f727830f99f402aac4f2a3b240b306c0cba4ddb5712b6e46f1e55a089cb1e",
-    "characters": 1397126
+    "bytes": 3646727,
+    "sha256": "f81072da5d63d692de1fafcd09456d9d8b060607dbd697e1d29a9b31657a5b99",
+    "characters": 1397115
   },
   {
     "id": 20,
     "title": "עבודה זרה",
     "pages": 150,
     "path": "data/20.json.gz",
-    "bytes": 2520306,
-    "sha256": "17734f8874951a28d4c1e191120ec217e1fbf32c867eabfec988d9103bd0ef0e",
-    "characters": 987153
+    "bytes": 2520300,
+    "sha256": "6d4262d4b24aa663ab8bf5661b3bff154714e4e3a761c872456f35a35c6c4e17",
+    "characters": 987152
   },
   {
     "id": 21,
     "title": "שבועות",
     "pages": 96,
     "path": "data/21.json.gz",
-    "bytes": 1532322,
-    "sha256": "561a1f9ac5e134672cbb8d46aef6a3612e113753d18775debb24fe95dc796e6c",
-    "characters": 602196
+    "bytes": 1532177,
+    "sha256": "77bb98dd14e349fc52f2e61fb8fd2e8372b4b8e457a2ab062cb3c1f30427c4ef",
+    "characters": 602189
   },
   {
     "id": 22,
     "title": "גיטין",
     "pages": 178,
     "path": "data/22.json.gz",
-    "bytes": 2992221,
-    "sha256": "6355a699770aa7f9c14a09bd91cf6a797fb0144fe636ae8a639f5f93017bf43e",
-    "characters": 1153578
+    "bytes": 2992164,
+    "sha256": "3ecbbef9d682d1855e962723dc56f3586822eb2efb5625d28b25dabb5308c1c5",
+    "characters": 1153576
   },
   {
     "id": 23,
     "title": "יבמות",
     "pages": 242,
     "path": "data/23.json.gz",
-    "bytes": 3951915,
-    "sha256": "6493801c8742fd7d7547cce6ae0c214308977d21b9bc11d02469835c532c97ea",
-    "characters": 1542592
+    "bytes": 3951750,
+    "sha256": "5593ea4d1748eadca5329e9f54881c2ac9d58abc7f3af46afc7bd167dc632136",
+    "characters": 1542587
   },
   {
     "id": 24,
     "title": "כתובות",
     "pages": 222,
     "path": "data/24.json.gz",
-    "bytes": 3637126,
-    "sha256": "250e8ba24f4b4fedbed8462a973cdc19d40ee7c1d7de2218b4e96608e40cdb0b",
-    "characters": 1430334
+    "bytes": 3637076,
+    "sha256": "a1bcaf1bdffadb5731a0813474427f9b6689c7c2370670e921b7ba04a94d8d25",
+    "characters": 1430324
   },
   {
     "id": 25,
     "title": "נדרים",
     "pages": 180,
     "path": "data/25.json.gz",
-    "bytes": 3810440,
-    "sha256": "94a34f3871c803d7322cc4cbcc8bf87229ac7bc03c429ada3ffc0bb94bfe6206",
-    "characters": 1535561
+    "bytes": 3810442,
+    "sha256": "8d6521f0bebe7825d36cb7a8ab5d089f31d60370eba1ea328acb36bbc05f6fc6",
+    "characters": 1535560
   },
   {
     "id": 26,
     "title": "נזיר",
     "pages": 130,
     "path": "data/26.json.gz",
-    "bytes": 2346063,
-    "sha256": "8e4c7112a7b5c5f84594f269db33ec3d74fa89d16048ae6b490d965613c4ba47",
-    "characters": 900213
+    "bytes": 2345569,
+    "sha256": "b4591c65f5ff8719ff1b8919e017ff98157cea1163c6fb349fa41ddc54968a02",
+    "characters": 900201
   },
   {
     "id": 27,
     "title": "סוטה",
     "pages": 96,
     "path": "data/27.json.gz",
-    "bytes": 1567584,
-    "sha256": "d788a9f284666636e11f78bda463494c159cc2178806cf6c4d33bdb33dc8fa7d",
-    "characters": 598784
+    "bytes": 1567467,
+    "sha256": "74d3fa19f424d66371434709907cae63ac6f9e3af725556c3893929ed759e5ef",
+    "characters": 598777
   },
   {
     "id": 28,
     "title": "קידושין",
     "pages": 162,
     "path": "data/28.json.gz",
-    "bytes": 2637434,
-    "sha256": "1c743f3d18d61ad5fa9f2d817cd2e8c1cb8d872c66703d8f4d1f4f0119a0cd9c",
-    "characters": 1011688
+    "bytes": 2637315,
+    "sha256": "94e9d20728129fc35f843d98bec371bc94a090c11c3c399d5d4b1e74b4759a99",
+    "characters": 1011677
   },
   {
     "id": 29,
     "title": "זבחים",
     "pages": 238,
     "path": "data/29.json.gz",
-    "bytes": 4297634,
-    "sha256": "8dbf27df93ababf95013a054848984d86835746e2e2fd8b9007589f79891def7",
-    "characters": 1641653
+    "bytes": 4296703,
+    "sha256": "f6f6a144abd9d76517c0ada78b00b19134f0ba3af0de2551670c5fa23225a183",
+    "characters": 1641606
   },
   {
     "id": 30,
     "title": "חולין",
     "pages": 281,
     "path": "data/30.json.gz",
-    "bytes": 6677466,
-    "sha256": "ad13a04fcdb9cc9312a035c231476d4948474346e762197c8ea8a1406d0fe380",
-    "characters": 2429905
+    "bytes": 6677120,
+    "sha256": "4ec493a5b28c4f10ba83fcd1570a5d6ddb25652a33fc5390126cfe8924d112cc",
+    "characters": 2429894
   },
   {
     "id": 31,
     "title": "כריתות",
     "pages": 54,
     "path": "data/31.json.gz",
-    "bytes": 1073817,
-    "sha256": "cced6e701955faeec3c13b638803b1a17cfc5d13fa7545654ee7bf826c6be729",
-    "characters": 401090
+    "bytes": 1073783,
+    "sha256": "107b73ab294c1c62512fe1b0f9d4c708fbc5ee59eba081fb0ba340fe596bebab",
+    "characters": 401084
   },
   {
     "id": 32,
     "title": "מנחות",
     "pages": 217,
     "path": "data/32.json.gz",
-    "bytes": 3970512,
-    "sha256": "733a5a4592b3a0ebf308bba2b55c8008648cc8f396588e8bfa89061d8e109309",
-    "characters": 1492923
+    "bytes": 3967664,
+    "sha256": "31d003adaf6770655da0b206885fd4b437c8de5f4dbcd53e245e0649cb62a818",
+    "characters": 1492859
   },
   {
     "id": 33,
     "title": "מעילה",
     "pages": 72,
     "path": "data/33.json.gz",
-    "bytes": 1234808,
-    "sha256": "aa153615f2480ae5a1c8960824615961acae1a252919ca23789aca9b23ef51b0",
-    "characters": 481584
+    "bytes": 1234230,
+    "sha256": "73680bb449fc617d0ef483d850112db353bc2f46d4441978f33477c000dee334",
+    "characters": 481557
   },
   {
     "id": 34,
     "title": "ערכין",
     "pages": 65,
     "path": "data/34.json.gz",
-    "bytes": 1050025,
-    "sha256": "8a244a079df10e42577a5df6a94951c0888665055cac0ced52b6d45119650b43",
-    "characters": 405087
+    "bytes": 1049923,
+    "sha256": "26080bbe394b20be3d621e9224d10b38f0cc36962bb8656be55f540ceaaa903f",
+    "characters": 405085
   },
   {
     "id": 35,
     "title": "תמורה",
     "pages": 65,
     "path": "data/35.json.gz",
-    "bytes": 1243443,
-    "sha256": "be615f0c2534e4c6ceb9cc9614259b186c42f5c43b5ee43b5ba462c0e66a0b8e",
-    "characters": 453184
+    "bytes": 1243374,
+    "sha256": "0babec7d1297c51f7f0683c3189dbc47d390f248a370630788cad0415ec0e808",
+    "characters": 453181
   }
 ]

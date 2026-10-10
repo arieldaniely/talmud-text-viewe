@@ -2,15 +2,23 @@
   "books": 36,
   "pages": 5287,
   "streams": 16289,
-  "positionedRanges": 6976879,
-  "characters": 35098585,
+  "positionedRanges": 6976419,
+  "characters": 35098132,
   "figurePositions": 253,
-  "dataBytes": 91150717,
-  "packageBytes": 91181968,
+  "dataBytes": 91140350,
+  "packageBytes": 91172289,
   "validationPassed": true,
   "checkedBrowserPages": 12,
   "browserCoordinateErrors": 0,
   "browserScriptErrors": [],
   "layout": "continuous Unicode streams with original page positions; open font outlines differ",
-  "publication": "local only; no publishing performed"
+  "publication": "local only; no publishing performed",
+  "columnOrderRepair": {
+    "scannedPages": 5287,
+    "repairedPages": 599,
+    "recheckedPages": 599,
+    "remainingJoinedRows": 0,
+    "browserSampledPages": 3,
+    "sourceGlyphsPreserved": true
+  }
 }
