@@ -1,0 +1,1096 @@
+{
+  "pages": 5287,
+  "convertedPages": 5230,
+  "preservedCommentaries": 10706,
+  "browserPages": [
+    {
+      "book": 0,
+      "page": 1,
+      "words": 239,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 0,
+      "page": 2,
+      "words": 403,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 0,
+      "page": 125,
+      "words": 352,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 1,
+      "page": 1,
+      "words": 111,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 1,
+      "page": 2,
+      "words": 260,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 1,
+      "page": 26,
+      "words": 416,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 1,
+      "page": 143,
+      "words": 309,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 2,
+      "page": 1,
+      "words": 200,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 2,
+      "page": 2,
+      "words": 251,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 2,
+      "page": 64,
+      "words": 347,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 2,
+      "page": 78,
+      "words": 57,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 3,
+      "page": 1,
+      "words": 202,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 3,
+      "page": 2,
+      "words": 231,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 3,
+      "page": 16,
+      "words": 424,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 3,
+      "page": 51,
+      "words": 201,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 4,
+      "page": 1,
+      "words": 271,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 4,
+      "page": 2,
+      "words": 253,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 4,
+      "page": 164,
+      "words": 552,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 4,
+      "page": 173,
+      "words": 246,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 5,
+      "page": 1,
+      "words": 514,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 5,
+      "page": 2,
+      "words": 522,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 5,
+      "page": 9,
+      "words": 608,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 5,
+      "page": 31,
+      "words": 455,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 5,
+      "page": 61,
+      "words": 363,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 6,
+      "page": 1,
+      "words": 354,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 6,
+      "page": 2,
+      "words": 329,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 6,
+      "page": 55,
+      "words": 138,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 7,
+      "page": 1,
+      "words": 259,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 7,
+      "page": 2,
+      "words": 383,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 7,
+      "page": 48,
+      "words": 279,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 7,
+      "page": 110,
+      "words": 270,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 8,
+      "page": 1,
+      "words": 277,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 8,
+      "page": 2,
+      "words": 300,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 8,
+      "page": 11,
+      "words": 285,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 8,
+      "page": 207,
+      "words": 259,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 9,
+      "page": 1,
+      "words": 246,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 9,
+      "page": 2,
+      "words": 371,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 9,
+      "page": 222,
+      "words": 530,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 9,
+      "page": 240,
+      "words": 71,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 10,
+      "page": 1,
+      "words": 104,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 10,
+      "page": 2,
+      "words": 331,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 10,
+      "page": 67,
+      "words": 273,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 11,
+      "page": 1,
+      "words": 95,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 11,
+      "page": 2,
+      "words": 194,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 11,
+      "page": 8,
+      "words": 290,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 11,
+      "page": 154,
+      "words": 402,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 11,
+      "page": 312,
+      "words": 68,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 12,
+      "page": 1,
+      "words": 370,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 12,
+      "page": 2,
+      "words": 391,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 12,
+      "page": 42,
+      "words": 97,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 13,
+      "page": 1,
+      "words": 304,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 13,
+      "page": 2,
+      "words": 395,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 13,
+      "page": 47,
+      "words": 720,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 13,
+      "page": 59,
+      "words": 239,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 14,
+      "page": 1,
+      "words": 132,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 14,
+      "page": 2,
+      "words": 290,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 14,
+      "page": 17,
+      "words": 717,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 14,
+      "page": 350,
+      "words": 46,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 15,
+      "page": 1,
+      "words": 297,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 15,
+      "page": 2,
+      "words": 248,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 15,
+      "page": 195,
+      "words": 263,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 15,
+      "page": 235,
+      "words": 126,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 16,
+      "page": 1,
+      "words": 171,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 16,
+      "page": 2,
+      "words": 301,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 16,
+      "page": 79,
+      "words": 443,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 16,
+      "page": 236,
+      "words": 434,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 17,
+      "page": 1,
+      "words": 519,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 17,
+      "page": 2,
+      "words": 438,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 17,
+      "page": 10,
+      "words": 303,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 17,
+      "page": 25,
+      "words": 214,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 18,
+      "page": 1,
+      "words": 192,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 18,
+      "page": 2,
+      "words": 456,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 18,
+      "page": 46,
+      "words": 165,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 19,
+      "page": 1,
+      "words": 347,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 19,
+      "page": 2,
+      "words": 191,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 19,
+      "page": 224,
+      "words": 118,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 20,
+      "page": 1,
+      "words": 221,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 20,
+      "page": 2,
+      "words": 540,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 20,
+      "page": 145,
+      "words": 234,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 20,
+      "page": 150,
+      "words": 155,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 21,
+      "page": 1,
+      "words": 132,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 21,
+      "page": 2,
+      "words": 291,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 21,
+      "page": 16,
+      "words": 307,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 21,
+      "page": 96,
+      "words": 453,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 22,
+      "page": 1,
+      "words": 104,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 22,
+      "page": 2,
+      "words": 95,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 22,
+      "page": 155,
+      "words": 439,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 22,
+      "page": 178,
+      "words": 159,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 23,
+      "page": 1,
+      "words": 41,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 23,
+      "page": 2,
+      "words": 170,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 23,
+      "page": 242,
+      "words": 334,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 24,
+      "page": 1,
+      "words": 254,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 24,
+      "page": 2,
+      "words": 312,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 24,
+      "page": 222,
+      "words": 89,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 25,
+      "page": 1,
+      "words": 34,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 25,
+      "page": 2,
+      "words": 208,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 25,
+      "page": 79,
+      "words": 399,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 25,
+      "page": 180,
+      "words": 189,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 26,
+      "page": 1,
+      "words": 203,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 26,
+      "page": 2,
+      "words": 144,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 26,
+      "page": 130,
+      "words": 80,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 27,
+      "page": 1,
+      "words": 274,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 27,
+      "page": 2,
+      "words": 497,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 27,
+      "page": 96,
+      "words": 582,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 28,
+      "page": 1,
+      "words": 97,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 28,
+      "page": 2,
+      "words": 357,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 28,
+      "page": 121,
+      "words": 369,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 28,
+      "page": 162,
+      "words": 242,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 29,
+      "page": 1,
+      "words": 178,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 29,
+      "page": 2,
+      "words": 306,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 29,
+      "page": 139,
+      "words": 17,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 29,
+      "page": 238,
+      "words": 59,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 30,
+      "page": 1,
+      "words": 131,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 30,
+      "page": 2,
+      "words": 248,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 30,
+      "page": 120,
+      "words": 176,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 30,
+      "page": 281,
+      "words": 304,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 31,
+      "page": 1,
+      "words": 144,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 31,
+      "page": 2,
+      "words": 598,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 31,
+      "page": 21,
+      "words": 311,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 31,
+      "page": 54,
+      "words": 189,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 32,
+      "page": 1,
+      "words": 147,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 32,
+      "page": 2,
+      "words": 327,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 32,
+      "page": 182,
+      "words": 342,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 32,
+      "page": 217,
+      "words": 548,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 33,
+      "page": 1,
+      "words": 241,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 33,
+      "page": 2,
+      "words": 183,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 33,
+      "page": 10,
+      "words": 217,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 33,
+      "page": 72,
+      "words": 287,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 34,
+      "page": 1,
+      "words": 237,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 34,
+      "page": 2,
+      "words": 333,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 34,
+      "page": 37,
+      "words": 610,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 34,
+      "page": 65,
+      "words": 183,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 35,
+      "page": 1,
+      "words": 204,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 35,
+      "page": 2,
+      "words": 355,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 35,
+      "page": 34,
+      "words": 408,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 35,
+      "page": 65,
+      "words": 391,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    }
+  ],
+  "browserErrors": []
+}

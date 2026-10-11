@@ -1,17 +1,17 @@
 {
   "books": 36,
   "pages": 5287,
-  "streams": 31435,
-  "positionedRanges": 7690453,
-  "characters": 38356149,
-  "figurePositions": 253,
-  "dataBytes": 101489054,
-  "packageBytes": 101773070,
+  "streams": 21577,
+  "positionedRanges": 6846306,
+  "characters": 34728626,
+  "figurePositions": 245,
+  "dataBytes": 93246223,
+  "packageBytes": 93887121,
   "validationPassed": true,
-  "checkedBrowserPages": 16,
+  "checkedBrowserPages": 136,
   "browserCoordinateErrors": 0,
   "browserScriptErrors": [],
-  "layout": "continuous Unicode streams with original page positions; open font outlines differ",
+  "layout": "Sefaria Gemara fitted to source row regions; commentary retains source positions",
   "publication": "local only; no publishing performed",
   "columnOrderRepair": {
     "scannedPages": 5287,
@@ -19,7 +19,8 @@
     "recheckedPages": 599,
     "remainingJoinedRows": 0,
     "browserSampledPages": 3,
-    "sourceGlyphsPreserved": true
+    "sourceGlyphsPreserved": true,
+    "scope": "Historical PDF extraction audit, before Sefaria replacement"
   },
   "fonts": {
     "body": "Romm Vilna",
@@ -30,10 +31,11 @@
   },
   "headingsAndReferences": {
     "pages": 5287,
-    "positionedHeadings": 5286,
-    "embeddedHeadings": 1,
-    "referenceColumns": 9860,
-    "preservedBodyStreams": 16289,
+    "positionedHeadings": 5287,
+    "embeddedHeadings": 0,
+    "referenceColumns": 0,
     "failures": []
-  }
+  },
+  "sefariaConvertedPages": 5230,
+  "sourceClassificationRepairs": 6
 }

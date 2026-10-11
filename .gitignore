@@ -1,4 +1,6 @@
 __pycache__/
+.sefaria-cache/
+qa/*.png
 .DS_Store
 Thumbs.db
 *.pdf
