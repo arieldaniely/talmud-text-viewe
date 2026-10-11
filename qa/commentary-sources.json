@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Tosafot on Berakhot",
+    "heVersions": [
+      {
+        "versionTitle": "Vilna Edition",
+        "license": "Public Domain"
+      }
+    ],
+    "schema": [
+      "Daf",
+      "Line",
+      "Comment"
+    ],
+    "alts": [
+      "Chapters"
+    ],
+    "error": null
+  },
+  {
+    "title": "Ran on Nedarim",
+    "heVersions": [
+      {
+        "versionTitle": "Vilna Edition",
+        "license": "Public Domain"
+      },
+      {
+        "versionTitle": "Vilna Edition ",
+        "license": "Public Domain"
+      }
+    ],
+    "schema": [
+      "Daf",
+      "Line",
+      "Comment"
+    ],
+    "alts": [
+      "Chapters"
+    ],
+    "error": null
+  },
+  {
+    "title": "Commentary of the Rosh on Nedarim",
+    "heVersions": [
+      {
+        "versionTitle": "Vilna Edition",
+        "license": "Public Domain"
+      }
+    ],
+    "schema": [
+      "Daf",
+      "Comment"
+    ],
+    "alts": [
+      "Chapters"
+    ],
+    "error": null
+  },
+  {
+    "title": "Rashbam on Bava Batra",
+    "heVersions": [
+      {
+        "versionTitle": "Vilna Edition",
+        "license": "Public Domain"
+      }
+    ],
+    "schema": [
+      "Daf",
+      "Line",
+      "Comment"
+    ],
+    "alts": [
+      "Chapters"
+    ],
+    "error": null
+  },
+  {
+    "title": "Korban HaEdah on Jerusalem Talmud Shekalim",
+    "heVersions": [
+      {
+        "versionTitle": "Piotrków, 1898-1900",
+        "license": "Public Domain"
+      }
+    ],
+    "schema": [
+      "Chapter",
+      "Halakhah",
+      "Segment",
+      "Comment"
+    ],
+    "alts": [
+      null
+    ],
+    "error": null
+  },
+  {
+    "title": "Tiklin Chadtin",
+    "heVersions": [],
+    "schema": null,
+    "alts": [
+      null
+    ],
+    "error": "No book named 'Tiklin Chadtin'."
+  },
+  {
+    "title": "Mishnat Eliyahu",
+    "heVersions": [],
+    "schema": null,
+    "alts": [
+      null
+    ],
+    "error": "No book named 'Mishnat Eliyahu'."
+  },
+  {
+    "title": "Rivav on Jerusalem Talmud Shekalim",
+    "heVersions": [],
+    "schema": null,
+    "alts": [
+      null
+    ],
+    "error": "No book named 'Rivav on Jerusalem Talmud Shekalim'."
+  }
+]
