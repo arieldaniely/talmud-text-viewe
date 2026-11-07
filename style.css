@@ -12,7 +12,7 @@
 .positioned-stream.gloss{fill:var(--ink)}
 .positioned-stream.heading{font-family:'Romm Vilna Heading','Romm Vilna',serif;font-synthesis:none}
 .positioned-stream.reference-note{font-family:'Romm Vilna','Noto Serif Hebrew',serif}
-.positioned-stream.gemara .large-type{font-family:'Romm Vilna Title','Romm Vilna',serif;font-weight:400}
+.positioned-stream.gemara .large-type{font-family:'Daf Vilna Gemara','Romm Vilna Title','Romm Vilna',serif;font-weight:400}
 .positioned-stream .reference{fill:var(--accent)}
 .positioned-stream .match{fill:#a45500;stroke:#f4d98c;stroke-width:.3;paint-order:stroke}
 .hide-notes .positioned-stream.gloss{visibility:hidden}
@@ -24,3 +24,11 @@
 :root{--base-page-width:min(1000px,calc(100vw - 64px))}
 .page-facsimile{width:calc(var(--base-page-width) * var(--page-zoom,1))}
 @media(max-width:800px){:root{--base-page-width:min(1000px,calc(100vw - 32px))}}
+
+/* Daf Vilna 4.001 is bundled with its corresponding source. */
+@font-face{font-family:'Daf Vilna Gemara';src:url('fonts/daf-vilna/gemara-4.001.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Daf Vilna Rashi';src:url('fonts/daf-vilna/rashi-4.001.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Daf Vilna Tosafot';src:url('fonts/daf-vilna/tosafot-4.001.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+.positioned-stream.gemara,body:not(.use-rashi) .positioned-stream.commentary,body:not(.use-rashi) .positioned-stream.gloss{font-family:'Daf Vilna Gemara','Romm Vilna',serif}
+.use-rashi #stream-rashi{font-family:'Daf Vilna Rashi','Mekorot',serif}
+.use-rashi #stream-tosafot{font-family:'Daf Vilna Tosafot','Mekorot',serif}
