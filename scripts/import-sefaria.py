@@ -8,6 +8,7 @@ from functools import lru_cache
 from pathlib import Path
 from urllib.request import urlopen, Request
 from urllib.parse import quote, urlencode
+from public_content import exclude_gra_notes
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / '.sefaria-cache'
@@ -193,6 +194,7 @@ def main():
             if response.get('heVersionTitle') != edition: raise ValueError('Unexpected edition: '+title)
         stats = {'title':title,'pages':0,'scales':[]}
         for page in pages:
+            exclude_gra_notes(page)
             page['streams'] = [s for s in page['streams'] if s['id'] not in HIDDEN and s.get('parent') not in HIDDEN]
             if book['id']==12: continue
             if book['id']==33 and (42<=page['n']<=47 or page['n']>=65):

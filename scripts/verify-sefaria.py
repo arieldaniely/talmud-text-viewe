@@ -1,10 +1,12 @@
 """Corpus integrity plus representative browser checks after the local import."""
 import gzip, hashlib, json, re
+from collections import Counter
 from functools import partial
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from threading import Thread
 from pathlib import Path
 from playwright.sync_api import sync_playwright
+from public_content import exclude_gra_notes, has_gra_heading
 
 ROOT=Path(__file__).resolve().parents[1]
 catalog=json.loads((ROOT/'catalog.json').read_text(encoding='utf8'))
@@ -28,6 +30,7 @@ for book in catalog:
     assert len(pages)==len(original)==book['pages']
     scales=[]
     for page,old in zip(pages,original):
+        assert exclude_gra_notes(page)==0
         report['pages']+=1
         totals['streams']+=len(page['streams']);totals['figurePositions']+=len(page['figures'])
         totals['sourceClassificationRepairs']+=bool(page.get('sourceRepairs'))
@@ -40,7 +43,12 @@ for book in catalog:
             if stream['role']=='commentary':
                 before=next(s for s in old['streams'] if s['id']==stream.get('originStream',stream['id']))
                 repair=next((r for r in page.get('sourceRepairs',[]) if r['stream']==stream['id']),None)
-                if repair:
+                if has_gra_heading(before['text']):
+                    def positioned_words(s):
+                        return Counter((s['text'][start:start+length],*coords)
+                                       for start,length,*coords in s['runs'])
+                    assert not (positioned_words(stream)-positioned_words(before))
+                elif repair:
                     removed=set()
                     for start,length in repair['removedRanges']: removed.update(range(start,start+length))
                     assert stream['text']==''.join(c for i,c in enumerate(before['text']) if i not in removed)

@@ -2,10 +2,10 @@
   "books": 36,
   "pages": 5287,
   "streams": 21577,
-  "positionedRanges": 6846306,
-  "characters": 34728626,
+  "positionedRanges": 6832195,
+  "characters": 34690716,
   "figurePositions": 245,
-  "dataBytes": 93246223,
+  "dataBytes": 93044962,
   "packageBytes": 93887491,
   "validationPassed": true,
   "checkedBrowserPages": 136,
@@ -37,5 +37,9 @@
     "failures": []
   },
   "sefariaConvertedPages": 5230,
-  "sourceClassificationRepairs": 6
+  "sourceClassificationRepairs": 6,
+  "excludedMarginalia": {
+    "pagesChecked": 5287,
+    "pagesCleaned": 130
+  }
 }

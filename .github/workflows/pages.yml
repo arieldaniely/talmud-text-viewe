@@ -16,6 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      - name: Verify public corpus
+        run: python3 scripts/public_content.py
       - name: Verify bundled fonts
         run: |
           python3 - <<'PY'
