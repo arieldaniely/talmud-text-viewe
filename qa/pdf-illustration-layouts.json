@@ -1,0 +1,83 @@
+[
+  {"page":13,"stream":"tosafot","slot":[0.204,0.4449,0.0746,0.0949],"images":[
+    ["Tosafot on Sukkah 8a:2:1",2,[0.015,0.055,0.605,0.35]],
+    ["Tosafot on Sukkah 8a:2:1",3,[0.625,0,0.375,1]],
+    ["Tosafot on Sukkah 8a:2:1",4,[0.035,0.427,0.4,0.52]]
+  ]},
+  {"page":110,"stream":"tosafot","slot":[0.7519,0.3359,0.0712,0.0949],"images":[
+    ["Tosafot on Eruvin 56b:11:1",1,[0,0,0.56,0.365]],
+    ["Tosafot on Eruvin 56b:11:1",2,[0.56,0.14,0.44,0.84]],
+    ["Tosafot on Eruvin 56b:11:1",3,[0,0.55,0.55,0.45]]
+  ]},
+  {"page":119,"stream":"tosafot","slot":[0.1717,0.3169,0.0539,0.0828],"images":[
+    ["Tosafot on Eruvin 61a:17:1",1,[0,0,1,0.52]],
+    ["Tosafot on Eruvin 61a:17:1",2,[0,0.53,1,0.47]]
+  ]},
+  {"page":31,"stream":"tosafot","slot":[0.7369,0.5302,0.115,0.0665],"images":[
+    ["Tosafot on Yoma 17a:4:2",1,[0,0,1,1]]
+  ]},
+  {"page":31,"stream":"tosafot","slot":[0.1985,0.5618,0.1349,0.0847],"images":[
+    ["Tosafot on Yoma 17a:4:2",2,[0,0,1,1]]
+  ]},
+  {"page":168,"stream":"tosafot","slot":[0.54166,0.59832,0.09248,0.05997],"restore":true,"images":[
+    ["Tosafot on Shabbat 85b:4:1",1,[0,0,1,1]]
+  ]},
+  {"page":168,"stream":"tosafot","slot":[0.21163,0.74292,0.07029,0.08946],"restore":true,"images":[
+    ["Tosafot on Shabbat 85b:5:1",1,[0,0,1,1]]
+  ]},
+  {"page":7,"stream":"rashi","slot":[0.72737,0.72732,0.09603,0.07048],"restore":true,"images":[
+    ["Rashi on Eruvin 5a:12:1",1,[0,0,1,1]]
+  ]},
+  {"page":7,"stream":"rashi","slot":[0.1717,0.7816,0.0308,0.0311],"images":[
+    ["Rashi on Eruvin 5a:13:1",1,[0,0,1,1]]
+  ]},
+  {"page":107,"stream":"rashi","slot":[0.7396,0.5442,0.0837,0.0442],"images":[
+    ["Rashi on Eruvin 55a:5:3",1,[0,0,1,1]]
+  ]},
+  {"page":107,"stream":"rashi","slot":[0.77641,0.59288,0.0468,0.03857],"restore":true,"images":[
+    ["Rashi on Eruvin 55a:5:4",1,[0,0,1,1]]
+  ]},
+  {"page":63,"stream":"rashi","slot":[0.6172,0.3679,0.0675,0.0672],"images":[
+    ["Rashi on Menachot 33a:5:1",1,[0,0,1,1]]
+  ]},
+  {"page":63,"stream":"rashi","slot":[0.4728,0.4848,0.054,0.0393],"images":[
+    ["Rashi on Menachot 33a:5:5",1,[0,0,1,1]]
+  ]},
+  {"page":63,"stream":"rashi","gallery":true,"images":[
+    ["Rashi on Menachot 33a:5:2",1,null],
+    ["Rashi on Menachot 33a:5:4",1,null]
+  ]},
+  {"page":194,"stream":"rashi","slot":[0.14169,0.56295,0.162,0.15091],"restore":true,"images":[
+    ["Rashi on Menachot 98b:17:2",1,[0,0,1,1]]
+  ]},
+  {"page":195,"stream":"rashi","slot":[0.75778,0.04968,0.02945,0.06027],"restore":true,"images":[
+    ["Rashi on Menachot 98b:22:2",1,[0,0,1,1]]
+  ]},
+  {"page":195,"stream":"rashi","slot":[0.4779,0.065,0.1112,0.0194],"images":[
+    ["Rashi on Menachot 98b:22:2",2,[0,0,1,1]]
+  ]},
+  {"page":195,"stream":"rashi","slot":[0.6191,0.3502,0.0319,0.062],"images":[
+    ["Rashi on Menachot 99a:4:2",1,[0,0,1,1]]
+  ]},
+  {"page":11,"stream":"rashi","slot":[0.88214,0.08475,0.05454,0.04848],"restore":true,"images":[
+    ["Rashi on Sukkah 7a:3:2",1,[0,0,1,1]]
+  ]},
+  {"page":11,"stream":"rashi","slot":[0.88204,0.14882,0.05473,0.04824],"restore":true,"images":[
+    ["Rashi on Sukkah 7a:4:1",1,[0,0,1,1]]
+  ]},
+  {"page":11,"stream":"rashi","slot":[0.88204,0.21266,0.05473,0.05549],"restore":true,"images":[
+    ["Rashi on Sukkah 7a:5:1",1,[0,0,1,1]]
+  ]},
+  {"page":107,"stream":"rashi","slot":[0.1718,0.6044,0.0487,0.0386],"images":[
+    ["Rashi on Eruvin 55a:7:1",1,[0,0,1,1]]
+  ]},
+  {"page":107,"stream":"rashi","slot":[0.735,0.638,0.0884,0.0357],"images":[
+    ["Rashi on Eruvin 55a:11:1",1,[0,0,1,1]]
+  ]},
+  {"page":186,"stream":"rashi","slot":[0.1717,0.5602,0.1203,0.0814],"images":[
+    ["Rashi on Eruvin 94b:10:2",1,[0,0,1,1]]
+  ]},
+  {"page":200,"stream":"tosafot","slot":[0.7585,0.0589,0.0934,0.0606],"images":[
+    ["Tosafot on Bava Batra 101a:7:1",3,[0,0,1,1]]
+  ]}
+]

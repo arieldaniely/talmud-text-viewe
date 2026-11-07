@@ -18,6 +18,22 @@
 .hide-notes .positioned-stream.gloss{visibility:hidden}
 .figure-position rect{fill:none;stroke:var(--muted);stroke-width:.5;stroke-dasharray:2 2}
 .figure-position text{fill:var(--muted);font-family:'Noto Serif Hebrew',serif}
+.illustration-link{cursor:zoom-in}
+.page-illustration{pointer-events:none}
+.illustration-hit{fill:transparent;pointer-events:all}
+.illustration-backdrop{fill:transparent;pointer-events:none}
+.dark .illustration-backdrop{fill:#fff}
+.illustration-marker circle{fill:var(--paper);stroke:var(--accent);stroke-width:1}
+.illustration-marker text{fill:var(--accent);font-family:system-ui,sans-serif}
+.illustration-gallery{direction:rtl;width:min(100%,1000px);margin:24px auto 0;padding:18px 22px;background:var(--paper)}
+.illustration-gallery h2{margin:0 0 12px;font-size:18px}
+.illustration-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:14px}
+.illustration-cards figure{margin:0;padding:14px;border:1px solid var(--line);border-radius:8px;display:grid;gap:12px;align-content:start}
+.illustration-cards img,.illustration-cards svg{display:block;margin:auto;max-width:100%;height:auto;background:#fff}
+.illustration-cards figcaption{display:grid;gap:6px;color:var(--muted);font-size:13px}
+.illustration-cards figcaption strong{color:var(--ink)}
+.illustration-cards button{justify-self:start}
+.positioned-stream .flash{animation:stream-flash 2s ease-out}
 .positioned-stream.flash{animation:stream-flash 2s ease-out}
 @keyframes stream-flash{from{fill:#ba6400}to{fill:var(--ink)}}
 @media(max-width:800px){.sheet{display:block}.page-facsimile{margin:0}}

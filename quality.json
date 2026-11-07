@@ -2,16 +2,16 @@
   "books": 36,
   "pages": 5287,
   "streams": 21577,
-  "positionedRanges": 6832195,
-  "characters": 34690716,
-  "figurePositions": 245,
-  "dataBytes": 93044962,
-  "packageBytes": 93887491,
+  "positionedRanges": 6834715,
+  "characters": 34655232,
+  "figurePositions": 251,
+  "dataBytes": 96047555,
+  "packageBytes": 96816031,
   "validationPassed": true,
-  "checkedBrowserPages": 136,
+  "checkedBrowserPages": 143,
   "browserCoordinateErrors": 0,
   "browserScriptErrors": [],
-  "layout": "Sefaria Gemara fitted to source row regions; commentary retains source positions",
+  "layout": "Sefaria Gemara and aligned commentary within printed regions",
   "publication": "local only; no publishing performed",
   "columnOrderRepair": {
     "scannedPages": 5287,
@@ -41,5 +41,22 @@
   "excludedMarginalia": {
     "pagesChecked": 5287,
     "pagesCleaned": 130
+  },
+  "sefariaCommentary": {
+    "verifiedFragments": 216941,
+    "headingRanges": 130891,
+    "streams": 9764,
+    "splitComments": 2113
+  },
+  "gemaraHeadings": {
+    "sectionStarts": 3897,
+    "openingWords": 36
+  },
+  "illustrations": {
+    "images": 7,
+    "inline": 7,
+    "belowPage": 0,
+    "sharedSlots": 2,
+    "upgraded": 7
   }
 }

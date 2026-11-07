@@ -3,7 +3,7 @@
 Run from any directory. Cache and backups are ignored by Git. --apply is required
 to write the corpus. Missing versions/pages fail instead of using the default.
 """
-import argparse, collections, difflib, gzip, hashlib, html, json, re, time
+import argparse, collections, difflib, gzip, hashlib, html, importlib, json, re, time
 from functools import lru_cache
 from pathlib import Path
 from urllib.request import urlopen, Request
@@ -20,6 +20,8 @@ TITLES = ['Berakhot','Niddah','Beitzah','Chagigah','Yoma','Megillah',
           'Gittin','Yevamot','Ketubot','Nedarim','Nazir','Sotah','Kiddushin',
           'Zevachim','Chullin','Keritot','Menachot','Meilah','Arakhin','Temurah']
 HIDDEN = {'note-מסורתהשס', 'note-עיןמשפט'}
+HEBREW_NUMERALS = dict(zip('אבגדהוזחטיכלמנסעפצקרשת',
+                            [1,2,3,4,5,6,7,8,9,10,20,30,40,50,60,70,80,90,100,200,300,400]))
 # Audited source classification errors: principal-text font runs had been
 # placed in a commentary stream. These repairs do not import commentary text.
 REPAIRS={(5,31):('tosafot',12.96),(6,55):('tosafot',13.68),
@@ -83,6 +85,49 @@ def plain(value):
 def tokens(value):
     return [re.sub(r'[^א-ת]', '', m.group()) for m in re.finditer(r'\S+', value)]
 
+def printed_address(daf):
+    numeral, side = daf.split(' ע״')
+    return sum(HEBREW_NUMERALS[c] for c in numeral)*2-2+(side=='ב')
+
+SECTION = re.compile(r"(?:מתני|גמ)[\u05f3\u0027\u05f4\u0022](?:[.:])?(?=\s|$)")
+OPENING_MISHNAH = re.compile(r"^מתני[\u05f3\u0027\u05f4\u0022]?(?:[.:])?\s+")
+POINTS = re.compile(r'[\u0591-\u05bd\u05bf\u05c1\u05c2\u05c4\u05c5\u05c7]')
+SECTION_SCALE = 1.34
+TITLE_SIZE = 24
+
+def starts_tractate(book_id, page_number):
+    return page_number == 1 or (book_id, page_number) == (33, 48)
+
+def gemara_text(segments, opening=False):
+    parts, starts, offset = [], [], 0
+    for segment in segments:
+        part = POINTS.sub('', plain(segment)).replace('\u05c3', ':')
+        if opening and part:
+            part = OPENING_MISHNAH.sub('', part, count=1)
+            opening = False
+        if SECTION.match(part):
+            starts.append(offset)
+        parts.append(part)
+        offset += len(part) + 1
+    return ' '.join(parts), starts
+
+def opening_of(stream, rows):
+    if len(rows) < 2:
+        return None
+    # A small printed marker can sit just above the title's baseline.
+    box = next((row for row in rows[:-1] if row[2] <= rows[0][2] + 12
+                and row[3] >= TITLE_SIZE), None)
+    if box is None:
+        return None
+    _, _, y, _ = box
+    for run in stream['runs']:
+        start, length, _, _, baseline, font_size, reference = run
+        if abs(baseline-y) <= 1.2 and font_size >= TITLE_SIZE and not reference:
+            word = tokens(stream['text'][start:start+length])
+            if word and word[0]:
+                return {'word': word[0], 'box': box}
+    return None
+
 def rows_of(stream):
     groups = collections.defaultdict(list)
     for run in stream['runs']:
@@ -110,19 +155,26 @@ def normalize_rows(rows):
         result.append([min(r[0] for r in group),max(r[1] for r in group),main[2],main[3]])
     return result
 
-def reflow(stream, text, advance):
+def reflow(stream, text, advance, section_starts=()):
     rows = normalize_rows(stream.get('sourceRows') or rows_of(stream))
     if not rows: raise ValueError('No Gemara geometry')
     words = list(re.finditer(r'\S+', text))
+    section_starts = set(section_starts)
+    opening = stream.get('sourceOpening') or opening_of(stream, rows)
+    opener = None
+    if opening and words:
+        index = int(words[0].start() in section_starts)
+        if index < len(words) and tokens(words[index].group()) == [opening['word']]:
+            opener = index
     # Preserve large opening words only where they survive in the new text.
     big = {}
     old_words = list(re.finditer(r'\S+', stream['text']))
-    old_sizes = {r[0]:r[5] for r in stream['runs'] if r[5] > 18 and not r[6]}
+    old_sizes = {r[0]:r[5] for r in stream['runs'] if r[5] >= TITLE_SIZE and not r[6]}
     if stream.get('sourceRows'):
         # Preserve the original large-word size when rerunning from a checkout
         # that already contains Sefaria data but has no PDF-text backup.
         for r in stream['runs']:
-            original=next((row[3] for row in rows if abs(row[2]-r[4])<.05 and row[3]>18),None)
+            original=next((row[3] for row in rows if abs(row[2]-r[4])<.05 and row[3]>=TITLE_SIZE),None)
             if original and r[0] in old_sizes: old_sizes[r[0]]=original
     blocks=difflib.SequenceMatcher(None, tokens(stream['text']), tokens(text), autojunk=False).get_matching_blocks() if old_sizes else []
     for block in blocks:
@@ -131,13 +183,37 @@ def reflow(stream, text, advance):
             if size: big[block.b+i] = size
     def fit(scale):
         result = []; index = 0
-        for left, right, y, size in rows:
+        for row_index, (left, right, y, size) in enumerate(rows):
+            if opener is not None and y < opening['box'][2]:
+                continue
+            if opener is not None and y == opening['box'][2]:
+                left, right, y, size = opening['box']
+                if opener:
+                    prefix = words[0]
+                    next_right, normal = rows[row_index+1][1], rows[row_index+1][3]
+                    prefix_size = normal * SECTION_SCALE * scale
+                    prefix_right = max(right, next_right)
+                    prefix_left = max(right + normal * .16, prefix_right - advance(prefix.group(), prefix_size))
+                    if prefix_left >= prefix_right:
+                        # Preserve reading order when the title uses the full
+                        # row width by making space inside its original box.
+                        prefix_right = right
+                        prefix_left = right - min(advance(prefix.group(), prefix_size), (right-left) * .38)
+                        right = prefix_left - normal * .16
+                    result.append([prefix.start(), len(prefix.group()), round(prefix_left,3),
+                                   round(prefix_right,3), y, round(prefix_size,3), 0])
+                word = words[opener]
+                result.append([word.start(), len(word.group()), left, right, y, size, 0])
+                index = opener + 1
+                continue
             line = []; used = 0; gap = size * scale * .22
             while index < len(words):
                 # A displaced chapter opener must not acquire a tall font on
                 # an ordinary baseline, where it would overlap adjacent lines.
                 m = words[index]; fs = min(big.get(index,size),size) * scale
-                if size > 18 and index not in big: break
+                if size >= TITLE_SIZE and index not in big: break
+                if m.start() in section_starts and size < TITLE_SIZE:
+                    fs *= SECTION_SCALE
                 width = advance(m.group(), fs)
                 if used + (gap if line else 0) + width > right-left + .01: break
                 used += (gap if line else 0) + width
@@ -162,18 +238,38 @@ def reflow(stream, text, advance):
     assert count == len(words)
     return result, rows, round(scale,4)
 
+def font_advance():
+    from fontTools.ttLib import TTFont
+    font = TTFont(ROOT/'fonts/romm-vilna.ttf')
+    cmap = font.getBestCmap()
+    units = font['head'].unitsPerEm
+
+    @lru_cache(maxsize=50000)
+    def width(word):
+        return sum(font['hmtx'][cmap.get(c,'.notdef')][0] for c in word)/units
+
+    return lambda word, size: width(word)*size
+
+def classify_nazir_continuation(page):
+    stream = next((s for s in page['streams'] if s['id']=='gemara'), None)
+    if stream is None:
+        return
+    stream.update(id='tosafot-continuation', label='תוספות — המשך',
+                  role='commentary', originStream='gemara')
+    for child in page['streams']:
+        if child.get('parent')=='gemara':
+            child['parent'] = stream['id']
+    for figure in page['figures']:
+        if figure['stream']=='gemara':
+            figure['stream'] = stream['id']
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--apply', action='store_true')
     parser.add_argument('--book', type=int, action='append')
     args = parser.parse_args()
-    # Font advances use the actual bundled font, not character-count estimates.
-    from fontTools.ttLib import TTFont
-    font = TTFont(ROOT/'fonts/romm-vilna.ttf'); cmap = font.getBestCmap(); units = font['head'].unitsPerEm
-    @lru_cache(maxsize=50000)
-    def width(word):
-        return sum(font['hmtx'][cmap.get(c,'.notdef')][0] for c in word)/units
-    def advance(word, size): return width(word)*size
+    advance = font_advance()
+    illustrations = importlib.import_module('import-illustrations') if args.apply else None
     catalog = json.loads((ROOT/'catalog.json').read_text(encoding='utf8'))
     report = {'edition':EDITION,'books':[], 'exceptions':[]}
     changes = []
@@ -181,7 +277,9 @@ def main():
         if args.book and book['id'] not in args.book: continue
         title = TITLES[book['id']]
         original=CACHE/'original'/Path(book['path']).name
-        pages = json.loads(gzip.decompress((original if original.exists() else ROOT/book['path']).read_bytes()))
+        pages = json.loads(gzip.decompress((ROOT/book['path']).read_bytes()))
+        if illustrations:
+            upgrades = illustrations.clear_placements(pages,gemara_only=True)
         edition = EDITION
         if book['id']==12:
             response=None;metadata={}
@@ -200,6 +298,11 @@ def main():
             if book['id']==33 and (42<=page['n']<=47 or page['n']>=65):
                 report['exceptions'].append({'book':title,'page':page['n'],'reason':'Kinnim/Middot are Mishnah, not Gemara; original text retained'})
                 continue
+            if book['id']==26 and page['n']==64:
+                classify_nazir_continuation(page)
+                report['exceptions'].append({'book':title,'page':64,'daf':page['daf'],
+                                             'reason':'Printed Tosafot continuation; no Gemara on this page'})
+                continue
             gemara = next((s for s in page['streams'] if s['id']=='gemara'), None)
             if not gemara: raise ValueError(f'Missing Gemara {title} {page["n"]}')
             gemara=repair_geometry(page,book['id'],gemara)
@@ -209,9 +312,8 @@ def main():
                 end=max(r[0]+r[1] for r in heading)
                 page['streams'].append({'id':'header','label':'כותרת הדף','role':'heading','text':gemara['text'][:end],'runs':heading})
                 gemara['runs']=[r for r in gemara['runs'] if r not in heading]
-            numeral, side = page['daf'].split(' ע״')
-            number = sum({'א':1,'ב':2,'ג':3,'ד':4,'ה':5,'ו':6,'ז':7,'ח':8,'ט':9,'י':10,'כ':20,'ל':30,'מ':40,'נ':50,'ס':60,'ע':70,'פ':80,'צ':90,'ק':100,'ר':200,'ש':300,'ת':400}[c] for c in numeral)
-            address = number*2-2+(side=='ב')
+            address = printed_address(page['daf'])
+            number = address//2+1
             page_title=title
             page_response=response
             if book['id']==33 and 48<=page['n']<=64:
@@ -224,16 +326,22 @@ def main():
                 report['exceptions'].append({'book':title,'page':page['n'],'daf':page['daf'],'reason':'No Gemara in requested edition; original stream retained (Nazir 33b contains printed Tosafot)'})
                 continue
             if not all(isinstance(v,str) for v in segments): raise ValueError('Invalid segment structure')
-            text = ' '.join(plain(v) for v in segments)
-            text = re.sub(r'[\u0591-\u05bd\u05bf\u05c1\u05c2\u05c4\u05c5\u05c7]', '', text).replace('\u05c3', ':')
-            runs, rows, scale = reflow(gemara, text, advance)
-            gemara.update(text=text,runs=runs,sourceRows=rows,source={'provider':'Sefaria','ref':f'{page_title} {number}{"a" if side=="א" else "b"}', 'versionTitle':edition,'license':metadata.get('license'),'versionSource':metadata.get('versionSource')})
+            text, section_starts = gemara_text(segments, starts_tractate(book['id'], page['n']))
+            opening = gemara.get('sourceOpening') or opening_of(gemara, gemara.get('sourceRows') or rows_of(gemara))
+            runs, rows, scale = reflow(gemara, text, advance, section_starts)
+            gemara.update(text=text,runs=runs,sourceRows=rows,source={'provider':'Sefaria','ref':f'{page_title} {number}{"ab"[address % 2]}', 'versionTitle':edition,'license':metadata.get('license'),'versionSource':metadata.get('versionSource')})
+            gemara['sectionStarts'] = section_starts
+            if opening:
+                gemara['sourceOpening'] = opening
             for key in ('references','literalLatin'): gemara.pop(key,None)
             # Offsets attached to replaced text are invalid; retained commentaries
             # and their geometry remain unchanged.
             page['streams'] = [s for s in page['streams'] if s.get('parent')!='gemara']
             page['figures'] = [f for f in page['figures'] if f['stream']!='gemara']
             stats['pages'] += 1; stats['scales'].append([page['n'],scale])
+        if illustrations:
+            illustrations.place_gemara(book['id'],pages)
+            illustrations.restore_upgrades(pages,upgrades)
         packed = gzip.compress(json.dumps(pages,ensure_ascii=False,separators=(',',':')).encode(),compresslevel=9,mtime=0)
         changes.append((book,packed))
         report['books'].append(stats)

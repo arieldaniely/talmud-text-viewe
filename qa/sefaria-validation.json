@@ -1,7 +1,7 @@
 {
   "pages": 5287,
   "convertedPages": 5230,
-  "preservedCommentaries": 10706,
+  "preservedCommentaries": 943,
   "browserPages": [
     {
       "book": 0,
@@ -30,7 +30,7 @@
     {
       "book": 1,
       "page": 1,
-      "words": 111,
+      "words": 110,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -71,6 +71,14 @@
       "book": 2,
       "page": 2,
       "words": 251,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 2,
+      "page": 19,
+      "words": 463,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -141,6 +149,14 @@
     },
     {
       "book": 4,
+      "page": 31,
+      "words": 58,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 4,
       "page": 164,
       "words": 552,
       "clipped": 0,
@@ -173,16 +189,16 @@
     },
     {
       "book": 5,
-      "page": 9,
-      "words": 608,
+      "page": 31,
+      "words": 455,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
     },
     {
       "book": 5,
-      "page": 31,
-      "words": 455,
+      "page": 46,
+      "words": 456,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -213,6 +229,14 @@
     },
     {
       "book": 6,
+      "page": 35,
+      "words": 218,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 6,
       "page": 55,
       "words": 138,
       "clipped": 0,
@@ -237,6 +261,30 @@
     },
     {
       "book": 7,
+      "page": 5,
+      "words": 246,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 7,
+      "page": 11,
+      "words": 301,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 7,
+      "page": 13,
+      "words": 139,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 7,
       "page": 48,
       "words": 279,
       "clipped": 0,
@@ -254,7 +302,7 @@
     {
       "book": 8,
       "page": 1,
-      "words": 277,
+      "words": 276,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -286,7 +334,7 @@
     {
       "book": 9,
       "page": 1,
-      "words": 246,
+      "words": 245,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -342,7 +390,7 @@
     {
       "book": 11,
       "page": 1,
-      "words": 95,
+      "words": 94,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -502,7 +550,7 @@
     {
       "book": 16,
       "page": 1,
-      "words": 171,
+      "words": 170,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -534,7 +582,7 @@
     {
       "book": 17,
       "page": 1,
-      "words": 519,
+      "words": 518,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -566,7 +614,7 @@
     {
       "book": 18,
       "page": 1,
-      "words": 192,
+      "words": 191,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -590,7 +638,7 @@
     {
       "book": 19,
       "page": 1,
-      "words": 347,
+      "words": 346,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -614,7 +662,7 @@
     {
       "book": 20,
       "page": 1,
-      "words": 221,
+      "words": 220,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -646,7 +694,7 @@
     {
       "book": 21,
       "page": 1,
-      "words": 132,
+      "words": 131,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -678,7 +726,7 @@
     {
       "book": 22,
       "page": 1,
-      "words": 104,
+      "words": 103,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -829,6 +877,14 @@
     },
     {
       "book": 27,
+      "page": 45,
+      "words": 266,
+      "clipped": 0,
+      "notes": 0,
+      "badFonts": []
+    },
+    {
+      "book": 27,
       "page": 96,
       "words": 582,
       "clipped": 0,
@@ -870,7 +926,7 @@
     {
       "book": 29,
       "page": 1,
-      "words": 178,
+      "words": 177,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -902,7 +958,7 @@
     {
       "book": 30,
       "page": 1,
-      "words": 131,
+      "words": 130,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -934,7 +990,7 @@
     {
       "book": 31,
       "page": 1,
-      "words": 144,
+      "words": 143,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -949,8 +1005,8 @@
     },
     {
       "book": 31,
-      "page": 21,
-      "words": 311,
+      "page": 26,
+      "words": 333,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -966,7 +1022,7 @@
     {
       "book": 32,
       "page": 1,
-      "words": 147,
+      "words": 146,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -1030,7 +1086,7 @@
     {
       "book": 34,
       "page": 1,
-      "words": 237,
+      "words": 236,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -1062,7 +1118,7 @@
     {
       "book": 35,
       "page": 1,
-      "words": 204,
+      "words": 203,
       "clipped": 0,
       "notes": 0,
       "badFonts": []
@@ -1092,5 +1148,22 @@
       "badFonts": []
     }
   ],
-  "browserErrors": []
+  "browserErrors": [],
+  "commentary": {
+    "verifiedFragments": 216941,
+    "headingRanges": 130891,
+    "streams": 9764,
+    "splitComments": 2113
+  },
+  "gemaraHeadings": {
+    "sectionStarts": 3897,
+    "openingWords": 36
+  },
+  "illustrations": {
+    "images": 7,
+    "inline": 7,
+    "belowPage": 0,
+    "sharedSlots": 2,
+    "upgraded": 7
+  }
 }

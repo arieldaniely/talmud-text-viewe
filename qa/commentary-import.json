@@ -1,0 +1,842 @@
+{
+  "0": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Berakhot",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 125,
+      "updatedStreams": 125,
+      "printedWords": 43233,
+      "matchedWords": 40080
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Berakhot",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 110,
+      "updatedStreams": 106,
+      "printedWords": 32391,
+      "matchedWords": 29174
+    }
+  ],
+  "1": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Niddah",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 143,
+      "updatedStreams": 143,
+      "printedWords": 65062,
+      "matchedWords": 59811
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Niddah",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 137,
+      "updatedStreams": 137,
+      "printedWords": 60488,
+      "matchedWords": 59294
+    }
+  ],
+  "2": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Beitzah",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 78,
+      "updatedStreams": 78,
+      "printedWords": 38609,
+      "matchedWords": 37548
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Beitzah",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 73,
+      "updatedStreams": 73,
+      "printedWords": 26854,
+      "matchedWords": 25710
+    }
+  ],
+  "3": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Chagigah",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://he.wikisource.org/wiki/%D7%AA%D7%9C%D7%9E%D7%95%D7%93_%D7%91%D7%91%D7%9C%D7%99",
+      "streams": 51,
+      "updatedStreams": 51,
+      "printedWords": 17047,
+      "matchedWords": 16099
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Chagigah",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://he.wikisource.org/wiki/%D7%AA%D7%9C%D7%9E%D7%95%D7%93_%D7%91%D7%91%D7%9C%D7%99",
+      "streams": 50,
+      "updatedStreams": 50,
+      "printedWords": 24866,
+      "matchedWords": 24058
+    }
+  ],
+  "4": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Yoma",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 173,
+      "updatedStreams": 173,
+      "printedWords": 61053,
+      "matchedWords": 58375
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Yoma",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 166,
+      "updatedStreams": 162,
+      "printedWords": 79991,
+      "matchedWords": 78011
+    }
+  ],
+  "5": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Megillah",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 61,
+      "updatedStreams": 61,
+      "printedWords": 23132,
+      "matchedWords": 22043
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Megillah",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 54,
+      "updatedStreams": 54,
+      "printedWords": 14698,
+      "matchedWords": 13253
+    }
+  ],
+  "6": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Moed Katan",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 55,
+      "updatedStreams": 55,
+      "printedWords": 18275,
+      "matchedWords": 17104
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Moed Katan",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 53,
+      "updatedStreams": 51,
+      "printedWords": 20016,
+      "matchedWords": 19271
+    }
+  ],
+  "7": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Sukkah",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 110,
+      "updatedStreams": 110,
+      "printedWords": 50837,
+      "matchedWords": 49691
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Sukkah",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 109,
+      "updatedStreams": 109,
+      "printedWords": 53187,
+      "matchedWords": 52329
+    }
+  ],
+  "8": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Eruvin",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 207,
+      "updatedStreams": 207,
+      "printedWords": 106722,
+      "matchedWords": 99370
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Eruvin",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 198,
+      "updatedStreams": 198,
+      "printedWords": 81939,
+      "matchedWords": 79629
+    }
+  ],
+  "9": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Pesachim",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 237,
+      "updatedStreams": 237,
+      "printedWords": 105369,
+      "matchedWords": 100012
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Pesachim",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 233,
+      "updatedStreams": 230,
+      "printedWords": 96533,
+      "matchedWords": 75768
+    }
+  ],
+  "10": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Rosh Hashanah",
+      "versionTitle": "WikiSource Rashi",
+      "license": "Public Domain",
+      "versionSource": "https://he.wikisource.org/wiki/תלמוד_בבלי",
+      "streams": 67,
+      "updatedStreams": 67,
+      "printedWords": 22911,
+      "matchedWords": 22240
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Rosh Hashanah",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH002182132",
+      "streams": 66,
+      "updatedStreams": 66,
+      "printedWords": 30160,
+      "matchedWords": 28921
+    }
+  ],
+  "11": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Shabbat",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 312,
+      "updatedStreams": 312,
+      "printedWords": 134143,
+      "matchedWords": 128927
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Shabbat",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 300,
+      "updatedStreams": 298,
+      "printedWords": 69452,
+      "matchedWords": 65063
+    }
+  ],
+  "13": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Taanit",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 59,
+      "updatedStreams": 59,
+      "printedWords": 26918,
+      "matchedWords": 25324
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Taanit",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 55,
+      "updatedStreams": 54,
+      "printedWords": 11155,
+      "matchedWords": 10109
+    }
+  ],
+  "14": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Bava Batra",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 55,
+      "updatedStreams": 55,
+      "printedWords": 22582,
+      "matchedWords": 18627
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Bava Batra",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 334,
+      "updatedStreams": 332,
+      "printedWords": 141470,
+      "matchedWords": 134879
+    }
+  ],
+  "15": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Bava Metzia",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 235,
+      "updatedStreams": 235,
+      "printedWords": 99364,
+      "matchedWords": 95200
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Bava Metzia",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 230,
+      "updatedStreams": 230,
+      "printedWords": 101368,
+      "matchedWords": 99150
+    }
+  ],
+  "16": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Bava Kamma",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 236,
+      "updatedStreams": 236,
+      "printedWords": 84843,
+      "matchedWords": 78761
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Bava Kamma",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 229,
+      "updatedStreams": 229,
+      "printedWords": 113402,
+      "matchedWords": 110341
+    }
+  ],
+  "17": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Horayot",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 25,
+      "updatedStreams": 25,
+      "printedWords": 14012,
+      "matchedWords": 13205
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Horayot",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 16,
+      "updatedStreams": 11,
+      "printedWords": 4779,
+      "matchedWords": 1757
+    }
+  ],
+  "18": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Makkot",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 46,
+      "updatedStreams": 45,
+      "printedWords": 21188,
+      "matchedWords": 19308
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Makkot",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 41,
+      "updatedStreams": 41,
+      "printedWords": 14907,
+      "matchedWords": 13975
+    }
+  ],
+  "19": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Sanhedrin",
+      "versionTitle": "Vilna Edition",
+      "license": "CC-BY-SA",
+      "versionSource": "http://he.wikisource.org/wiki/%D7%AA%D7%9C%D7%9E%D7%95%D7%93_%D7%91%D7%91%D7%9C%D7%99",
+      "streams": 224,
+      "updatedStreams": 224,
+      "printedWords": 109683,
+      "matchedWords": 105592
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Sanhedrin",
+      "versionTitle": "Vilna Edition",
+      "license": "CC-BY-SA",
+      "versionSource": "http://he.wikisource.org/wiki/%D7%AA%D7%9C%D7%9E%D7%95%D7%93_%D7%91%D7%91%D7%9C%D7%99",
+      "streams": 192,
+      "updatedStreams": 171,
+      "printedWords": 60003,
+      "matchedWords": 53192
+    }
+  ],
+  "20": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Avodah Zarah",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://he.wikisource.org/wiki/תלמוד_בבלי",
+      "streams": 150,
+      "updatedStreams": 149,
+      "printedWords": 52278,
+      "matchedWords": 50355
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Avodah Zarah",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://he.wikisource.org/wiki/תלמוד_בבלי",
+      "streams": 148,
+      "updatedStreams": 148,
+      "printedWords": 84240,
+      "matchedWords": 82107
+    }
+  ],
+  "21": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Shevuot",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 96,
+      "updatedStreams": 96,
+      "printedWords": 40938,
+      "matchedWords": 37548
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Shevuot",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 91,
+      "updatedStreams": 91,
+      "printedWords": 42868,
+      "matchedWords": 42197
+    }
+  ],
+  "22": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Gittin",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 179,
+      "updatedStreams": 178,
+      "printedWords": 75012,
+      "matchedWords": 71874
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Gittin",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 173,
+      "updatedStreams": 172,
+      "printedWords": 87299,
+      "matchedWords": 81319
+    }
+  ],
+  "23": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Yevamot",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 242,
+      "updatedStreams": 242,
+      "printedWords": 105095,
+      "matchedWords": 97775
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Yevamot",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 236,
+      "updatedStreams": 236,
+      "printedWords": 109453,
+      "matchedWords": 106743
+    }
+  ],
+  "24": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Ketubot",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 222,
+      "updatedStreams": 222,
+      "printedWords": 82429,
+      "matchedWords": 77721
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Ketubot",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 218,
+      "updatedStreams": 217,
+      "printedWords": 120411,
+      "matchedWords": 116321
+    }
+  ],
+  "25": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Nedarim",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 180,
+      "updatedStreams": 177,
+      "printedWords": 51556,
+      "matchedWords": 49580
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Nedarim",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 176,
+      "updatedStreams": 161,
+      "printedWords": 53473,
+      "matchedWords": 43767
+    }
+  ],
+  "26": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Nazir",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 129,
+      "updatedStreams": 129,
+      "printedWords": 62556,
+      "matchedWords": 51045
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Nazir",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 126,
+      "updatedStreams": 126,
+      "printedWords": 83278,
+      "matchedWords": 79050
+    }
+  ],
+  "27": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Sotah",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 96,
+      "updatedStreams": 96,
+      "printedWords": 46190,
+      "matchedWords": 41155
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Sotah",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 77,
+      "updatedStreams": 75,
+      "printedWords": 31479,
+      "matchedWords": 30272
+    }
+  ],
+  "28": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Kiddushin",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 158,
+      "updatedStreams": 156,
+      "printedWords": 68774,
+      "matchedWords": 61886
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Kiddushin",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 149,
+      "updatedStreams": 149,
+      "printedWords": 63555,
+      "matchedWords": 58678
+    }
+  ],
+  "29": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Zevachim",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 238,
+      "updatedStreams": 238,
+      "printedWords": 133530,
+      "matchedWords": 108996
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Zevachim",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 225,
+      "updatedStreams": 225,
+      "printedWords": 113212,
+      "matchedWords": 106191
+    }
+  ],
+  "30": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Chullin",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 281,
+      "updatedStreams": 281,
+      "printedWords": 143737,
+      "matchedWords": 136447
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Chullin",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 280,
+      "updatedStreams": 274,
+      "printedWords": 228921,
+      "matchedWords": 117829
+    }
+  ],
+  "31": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Keritot",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://he.wikisource.org/wiki/תלמוד_בבלי",
+      "streams": 54,
+      "updatedStreams": 53,
+      "printedWords": 25693,
+      "matchedWords": 21746
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Keritot",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://he.wikisource.org/wiki/תלמוד_בבלי",
+      "streams": 51,
+      "updatedStreams": 45,
+      "printedWords": 25818,
+      "matchedWords": 10997
+    }
+  ],
+  "32": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Menachot",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 217,
+      "updatedStreams": 217,
+      "printedWords": 130646,
+      "matchedWords": 82474
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Menachot",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 181,
+      "updatedStreams": 181,
+      "printedWords": 82087,
+      "matchedWords": 78268
+    }
+  ],
+  "33": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Meilah",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://he.wikisource.org/wiki/תלמוד_בבלי",
+      "streams": 41,
+      "updatedStreams": 41,
+      "printedWords": 21416,
+      "matchedWords": 19655
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Meilah",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://he.wikisource.org/wiki/תלמוד_בבלי",
+      "streams": 41,
+      "updatedStreams": 41,
+      "printedWords": 24858,
+      "matchedWords": 23146
+    }
+  ],
+  "34": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Arakhin",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 65,
+      "updatedStreams": 64,
+      "printedWords": 30789,
+      "matchedWords": 26007
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Arakhin",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "streams": 58,
+      "updatedStreams": 58,
+      "printedWords": 21578,
+      "matchedWords": 20269
+    }
+  ],
+  "35": [
+    {
+      "provider": "Sefaria",
+      "ref": "Rashi on Temurah",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://he.wikisource.org/wiki/תלמוד_בבלי",
+      "streams": 65,
+      "updatedStreams": 65,
+      "printedWords": 35372,
+      "matchedWords": 30813
+    },
+    {
+      "provider": "Sefaria",
+      "ref": "Tosafot on Temurah",
+      "versionTitle": "Vilna Edition",
+      "license": "Public Domain",
+      "versionSource": "https://he.wikisource.org/wiki/תלמוד_בבלי",
+      "streams": 62,
+      "updatedStreams": 61,
+      "printedWords": 23805,
+      "matchedWords": 22720
+    }
+  ]
+}
